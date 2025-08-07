@@ -1,0 +1,24 @@
+# o arquivo na raiz é a referência única
+# e principal para todo o projeto
+root = true
+
+# Regras gerais para todos os arquivos
+[*]
+# Codificação UTF-8
+charset = utf-8
+# Quebra de linha estilo Unix (LF)
+end_of_line = lf
+# Garante nova linha ao final do arquivo
+insert_final_newline = true
+# Usa espaços no lugar de tabulação
+indent_style = space
+# Tamanho da indentação: 2 espaços
+indent_size = 2
+# Remove espaços em branco no fim das linhas
+trim_trailing_whitespace = true
+
+# Regras específicas para arquivos Markdown
+[*.md]
+# Mantém espaços ao final
+# (evita quebra em listas e blocos)
+trim_trailing_whitespace = false
