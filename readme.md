@@ -29,25 +29,24 @@ SELECT * FROM Tabela
 Agora uma consulta um pouco mais elaborada, seguindo o mesmo estilo:
 
 ```sql
--- ❌ Aqui a leitura começa a ficar cansativa, precisando em algumas telas arrastar pro lado pra ver o conteúdo.
+-- ❌ Aqui a leitura começa a ficar cansativa, precisando arrastar pro lado, em algumas telas, pra ver o conteúdo.
 SELECT CampoId, CampoNome, CampoTimeDoCoracao FROM Tabela WHERE CampoId = 1 AND CampoNome = 'THIAGO' AND CampoTimeDoCoracao = 'SÃO PAULO'
 ```
 
 Pra resolver essa questão, aplicamos a **indentação**.
 
-> Indentação de código é o espaço usado no começo da linha para mostrar que um comando está dentro de outro,
-> como por exemplo dentro de uma função, condição ou laço.
-
+> **Indentação** de código é o espaço usado no começo da linha para mostrar que um comando está dentro de outro.
+> Melhor exemplo possível aqui — um bloco SQL.
 
 Indentando o script:
 
 ```sql
--- Só de quebrar a linha há uma melhora na separação dos campos (colunas) da tabela.
+-- Só de quebrar a linha, há uma melhora na separação dos campos (colunas) da tabela.
 SELECT CampoId, CampoNome, CampoTimeDoCoracao
 FROM Tabela WHERE CampoId = 1 AND CampoNome = 'THIAGO' AND CampoTimeDoCoracao = 'SÃO PAULO'
 ```
 
-Vamos subir de nível? Vamos! Vou continuar a documentação passo a passo, pra não ficar algo massante.
+Vamos subir de nível? Vamos! Vou continuar a documentação passo a passo, evitando que o conteúdo fique massante.
 
 ## Subindo de nível
 

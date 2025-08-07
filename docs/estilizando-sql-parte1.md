@@ -20,10 +20,10 @@ Esses estilos têm um nome né? E a resposta é sim, mesmo que informalmente. Pa
 
 > Nota: Acho que não vou abreviar **Vertical SQL Formatting**  para **V.S.F.** — Olha o meme ai! 😅
 
-Legal, evoluímos a escrita, porém quanto maior o script, maiores a chances de complicar a leitura.
+Legal, evoluímos a escrita, porém quanto maior o script, maiores as chances de complicar a leitura.
 
 ```sql
--- ❌ Não curti. Dependendo de onde está essa instrução, pode ficar difícil interpretar.
+-- ❌ Não curti. Dependendo de onde está essa instrução, fica mais difícil interpretar.
 SELECT 
 ColunaId, 
 ColunaNome, 
@@ -48,7 +48,7 @@ AND ColunaAtivo = 1
 Mesmo exemplo, aninhando cada parte do código SQL, colocando abaixo de cada comando um recuo no espaçamento:
 
 ```sql
--- ✅ Agradável. Imagine ter que adicionar uma coluna extra, fica muito mais simples, só criar mais uma linha.
+-- ✅ Agradável. Imagine ter de adicionar uma coluna extra, bem simples, só criar mais uma linha.
 SELECT 
   ColunaId, 
   ColunaNome, 
