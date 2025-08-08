@@ -70,7 +70,7 @@ Exemplo do retorno na execução (Imagine seu time do coração retornando):
 No **Postgres** (nome popular, o nome de verdade é **PostgreSQL**), é mais comum escrever uma **FUNCTION** para retornar
 resultados.
 
-```postgresql
+```sql
 -- ⚠️ O uso de ";" é OBRIGATÓRIO para terminar instruções SQL dentro do cliente ou scripts.
 CREATE OR REPLACE FUNCTION RetornaTimeDoCoracaoPorId
 (
@@ -195,7 +195,7 @@ Saída fictícia da PROC:
 
 Mesmo exemplo, só que no Postgres:
 
-```postgresql
+```sql
 -- No PostgreSQL, a sintaxe é diferente. Não existe CREATE OR ALTER PROCEDURE com @ para parâmetros
 -- — parâmetros são declarados diretamente, e CTEs usam WITH sem ";" obrigatório antes.
 CREATE OR REPLACE FUNCTION ProcedimentoComCTE
@@ -411,7 +411,8 @@ END;
 
 Agora, repetindo os exemplos acima, no banco Postgres
 
-```postgresql
+```sql
+
 -- Exemplo com a criação explícita das tabelas temporárias, exibindo toda a estrutura
 CREATE OR REPLACE FUNCTION ProcedimentoComTempTables
 (
@@ -494,7 +495,7 @@ $$ LANGUAGE plpgsql;
 
 Versão mais enxuta:
 
-```postgresql
+```sql
 -- Mais enxuto, porém sem os tipos de dados das colunas exibidos.
 CREATE OR REPLACE FUNCTION ProcedimentoComTempTables
 (
