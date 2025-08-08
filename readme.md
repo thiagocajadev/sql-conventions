@@ -65,7 +65,8 @@ Vamos subir de nível? Vamos! Vou continuar a documentação passo a passo, evit
 ## Subindo de nível
 
 [Estilizando instruções SQL - parte 1](docs/estilizando-sql-parte-1.md)  
-[Estilizando instruções SQL - parte 2](docs/estilizando-sql-parte-2.md)
+[Estilizando instruções SQL - parte 2](docs/estilizando-sql-parte-2.md)  
+[Estilizando instruções SQL - parte 3](docs/estilizando-sql-parte-3.md)
 
 ### Referências
 

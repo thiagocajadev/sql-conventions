@@ -256,3 +256,5 @@ WHERE
   OutraTabela.ColunaStatusId IN (3, 4, 5) AND
   OutraTabela.DataAtualizacao < '2024-01-01';
 ```
+
+Evolução contínua. Aqui fica um atalho para [parte 3](estilizando-sql-parte-3.md).
