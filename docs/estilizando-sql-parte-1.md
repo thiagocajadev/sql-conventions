@@ -1,4 +1,4 @@
-# Estilizando instruções SQL
+# Estilizando instruções SQL - Parte 1
 
 Continuando a melhoria na estilização visual, vamos separar os comandos:
 
@@ -162,4 +162,4 @@ WHERE
   ColunaAtivo = 1;
 ```
 
-Show! Do primeiro script até aqui, já há uma grande evolução. Uma continuação na parte 2 vem ai!
+Show! Do primeiro script até aqui, já há uma grande evolução. Continuação na [parte 2](estilizando-sql-parte-2.md)!

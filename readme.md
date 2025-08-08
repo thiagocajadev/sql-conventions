@@ -5,6 +5,20 @@ Fala Dev! Aqui estou mais um dia, guardando minhas preferências sobre SQL.
 Fui "convencido" a escrever e ler melhor instruções na linguagem de consulta, e nada melhor do que registrar isso,
 não é mesmo?
 
+```sql
+-- ✅ Deixando um "spoiler" aqui sobre o SPFC.
+SELECT
+  CampoId,
+  CampoNome,
+  CampoTimeDoCoracao
+FROM 
+  Tabela
+WHERE
+  CampoId = 1 AND
+  CampoNome = 'THIAGO' AND 
+  CampoTimeDoCoracao = 'SÃO PAULO'
+```
+
 ## Guias de estilo
 
 É inevitável a busca por padronização após passar um certo tempo com olhos e mãos no código. Não encontrei uma
@@ -50,7 +64,8 @@ Vamos subir de nível? Vamos! Vou continuar a documentação passo a passo, evit
 
 ## Subindo de nível
 
-[Estilizando instruções SQL - parte 1](docs/estilizando-sql-parte1.md)
+[Estilizando instruções SQL - parte 1](docs/estilizando-sql-parte-1.md)  
+[Estilizando instruções SQL - parte 2](docs/estilizando-sql-parte-2.md)
 
 ### Referências
 
