@@ -1,0 +1,11 @@
+CREATE TABLE FootballTeams
+(
+  Id UNIQUEIDENTIFIER PRIMARY KEY DEFAULT NEWID(),
+  Name NVARCHAR(100) NOT NULL,
+  FoundedYear INT,
+  Stadium NVARCHAR(150),
+  City NVARCHAR(100),
+  Country NVARCHAR(100),
+  Coach NVARCHAR(100),
+  ChampionshipsWon INT DEFAULT 0
+);

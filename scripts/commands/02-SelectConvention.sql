@@ -1,0 +1,11 @@
+SELECT
+  Id,
+  Name,
+  FoundedYear,
+  Stadium,
+  City,
+  Country,
+  Manager,
+  ChampionshipsWon
+FROM
+  FootballTeams;

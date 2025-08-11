@@ -551,5 +551,4 @@ $$ LANGUAGE plpgsql;
 Bom, é isso aí! Lembrando que o escopo é olhar para os códigos visando a estilização. Esses são apenas exemplos
 fictícios.
 
-Futuramente vem uma parte 4, com sugestões de nomenclatura, mais detalhes sobre procedures e functions, e uma pasta com
-scripts de exemplo.
+[Parte 4](estilizando-sql-parte-4.md) com potenciais melhorias na escrita e leitura, além de scripts.

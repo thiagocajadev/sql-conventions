@@ -215,14 +215,15 @@ seguro é apenas **inativar** ou **anonimizar os dados**. E aqui temos então 2 
 
 ```sql
 -- ✅ Normalmente apagar dados são instruções bem enxutas para uma única tabela envolvida.
--- Assim como o "INSERT INTO", o nome da tabela fica a frente do comando, facilitando a legibilidade.
-DELETE FROM Tabela 
+DELETE FROM
+ Tabela 
 WHERE 
   ColunaId = 1;
 
 -- Exemplo apagando dados de uma tabela, com o critério de comparação sendo uma outra tabela.
-DELETE FROM Tabela
-JOIN 
+DELETE FROM
+  Tabela
+JOIN
   OutraTabela ON Tabela.ColunaId = OutraTabela.ColunaId
 WHERE
   Tabela.ColunaAtivo = 0 AND
