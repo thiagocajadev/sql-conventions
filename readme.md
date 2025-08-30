@@ -2,8 +2,8 @@
 
 Fala Dev! Aqui estou mais um dia, guardando minhas preferências sobre SQL.
 
-Fui "convencido" a escrever e ler melhor instruções na linguagem de consulta, e nada melhor do que registrar isso,
-não é mesmo?
+Fui "convencido" a escrever e ler melhor instruções na linguagem de consulta, e nada melhor do que
+registrar isso, não é mesmo?
 
 ```sql
 -- ✅ Deixando um "spoiler" aqui sobre o SPFC.
@@ -11,19 +11,21 @@ SELECT
   CampoId,
   CampoNome,
   CampoTimeDoCoracao
-FROM 
+FROM
   Tabela
 WHERE
   CampoId = 1 AND
-  CampoNome = 'THIAGO' AND 
+  CampoNome = 'THIAGO' AND
   CampoTimeDoCoracao = 'SÃO PAULO'
 ```
 
+Se precisar de um guia rápido, venha por [aqui](docs/estilizando-sql-guia-rapido.md).
+
 ## Guias de estilo
 
-É inevitável a busca por padronização após passar um certo tempo com olhos e mãos no código. Não encontrei uma
-preferência universal, só debates sobre o tema. Bons debates no campo das idéias, seguidos de respeito, geram resultados
-interessantes.
+É inevitável a busca por padronização após passar um certo tempo com olhos e mãos no código. Não
+encontrei uma preferência universal, só debates sobre o tema. Bons debates no campo das ideias,
+seguidos de respeito, geram resultados interessantes.
 
 Começando com uma **Query** simples:
 
@@ -49,8 +51,8 @@ SELECT CampoId, CampoNome, CampoTimeDoCoracao FROM Tabela WHERE CampoId = 1 AND 
 
 Pra resolver essa questão, aplicamos a **indentação**.
 
-> **Indentação** de código é o espaço usado no começo da linha para mostrar que um comando está dentro de outro.
-> Melhor exemplo possível aqui — um bloco SQL.
+> **Indentação** de código é o espaço usado no começo da linha para mostrar que um comando está
+> dentro de outro. Melhor exemplo possível aqui — um bloco SQL.
 
 Indentando o script:
 
@@ -60,7 +62,8 @@ SELECT CampoId, CampoNome, CampoTimeDoCoracao
 FROM Tabela WHERE CampoId = 1 AND CampoNome = 'THIAGO' AND CampoTimeDoCoracao = 'SÃO PAULO'
 ```
 
-Vamos subir de nível? Vamos! Vou continuar a documentação passo a passo, evitando que o conteúdo fique massante.
+Vamos subir de nível? Vamos! Vou continuar a documentação passo a passo, evitando que o conteúdo
+fique massante.
 
 ## Subindo de nível
 
@@ -72,4 +75,4 @@ Vamos subir de nível? Vamos! Vou continuar a documentação passo a passo, evit
 ### Referências
 
 [Guia de estilos SQL](https://www.sqlstyle.guide/)  
-[Guia de referência SQL](https://brainstation.io/learn/sql/reference)  
+[Guia de referência SQL](https://brainstation.io/learn/sql/reference)
